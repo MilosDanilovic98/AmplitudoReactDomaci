@@ -1,5 +1,4 @@
 import React from "react";
-import imagef from "../../images/maleAvatar.jpg";
 import "./image.css";
 const imageComponent = ({ src }) => {
   return (
