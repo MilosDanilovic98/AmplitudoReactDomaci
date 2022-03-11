@@ -11,7 +11,7 @@ const book = ({ title, year, author, quote, image }) => {
           Writen in {year} by {author}
         </p>
         <hr />
-        <p>{quote}</p>
+        <p>Quote:{quote}</p>
       </div>
     </div>
   );

@@ -5,11 +5,11 @@ const idCard = ({ firstName, lastName, dateOfBirth, city, image }) => {
     <div className="card">
       {image}
       <div className="container">
-        <h4>
+        <h3>
           <b>
             {firstName} {lastName}
           </b>
-        </h4>
+        </h3>
         <p>
           Born in {city} on the {dateOfBirth}
         </p>
